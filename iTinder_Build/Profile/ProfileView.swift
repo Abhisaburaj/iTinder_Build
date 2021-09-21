@@ -10,6 +10,7 @@ import SwiftUI
 struct ProfileView: View {
     var body: some View {
         VStack(spacing: 0) {
+            // Rounded Image + Edit Profile Button
             ZStack(alignment: .topTrailing) {
                 RoundedImage(url: URL(string: "https://picsum.photos/400"))
                     .frame(height: 175)
@@ -29,16 +30,20 @@ struct ProfileView: View {
             
             Spacer().frame(height: 18)
             
-            Text("Stanley, 33")
-                .foregroundColor(.textTitle)
-                .font(.system(size: 26, weight: .medium))
+            // Name + Job Title
+            Group {
+                Text("Stanley, 33")
+                    .foregroundColor(.textTitle)
+                    .font(.system(size: 26, weight: .medium))
+                
+                Spacer().frame(height: 8)
+                
+                Text("Software Engineer")
+                
+                Spacer().frame(height: 22)
+            }
             
-            Spacer().frame(height: 8)
-            
-            Text("Software Engineer")
-            
-            Spacer().frame(height: 22)
-            
+            // Main 3 Buttons
             HStack(alignment: .top) {
                 Spacer()
                 
@@ -96,8 +101,42 @@ struct ProfileView: View {
                 
                 Spacer()
             }
-            Spacer()
+            
+            Spacer().frame(height: 14)
+            
+            // Pink Message Container
+            HStack {
+                Text("Photo Tip: Make waves with a beach photo and get more likes")
+                    .multilineTextAlignment(.leading)
+                    .lineLimit(3)
+                    .foregroundColor(.white)
+                    .font(.system(size: 14))
+                
+                Button(action: {  }, label: {
+                    Image(systemName: "plus")
+                        .font(.system(size: 12, weight: .heavy))
+                        .foregroundColor(.pink)
+                        .padding(6)
+                })
+                .background(Color.white)
+                .clipShape(Circle())
+            }
+            .padding()
+            .background(Color.pink)
+            .cornerRadius(12)
+            .padding(.horizontal, 8)
+            
+            // ProfileSwipePromo
+            ZStack {
+                Color.gray.opacity(0.15)
+                
+                ProfileSwipePromo {
+                    //
+                }
+            }
+            .padding(.top, 18)
         }
+        .foregroundColor(Color.black.opacity(0.75))
     }
 }
 
