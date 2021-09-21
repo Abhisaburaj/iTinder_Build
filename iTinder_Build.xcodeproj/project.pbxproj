@@ -11,6 +11,8 @@
 		9106EEBC26F976060002281D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9106EEBB26F976060002281D /* ContentView.swift */; };
 		9106EEBE26F976070002281D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9106EEBD26F976070002281D /* Assets.xcassets */; };
 		9106EEC126F976070002281D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9106EEC026F976070002281D /* Preview Assets.xcassets */; };
+		9106EEC926F9773A0002281D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9106EEC826F9773A0002281D /* MainView.swift */; };
+		9106EECB26F979380002281D /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9106EECA26F979380002281D /* TabBarButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9106EEBD26F976070002281D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9106EEC026F976070002281D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9106EEC226F976070002281D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9106EEC826F9773A0002281D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9106EECA26F979380002281D /* TabBarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				9106EEB926F976060002281D /* iTinder_BuildApp.swift */,
 				9106EEBB26F976060002281D /* ContentView.swift */,
+				9106EEC826F9773A0002281D /* MainView.swift */,
+				9106EECA26F979380002281D /* TabBarButtonView.swift */,
 				9106EEBD26F976070002281D /* Assets.xcassets */,
 				9106EEC226F976070002281D /* Info.plist */,
 				9106EEBF26F976070002281D /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9106EECB26F979380002281D /* TabBarButtonView.swift in Sources */,
 				9106EEBC26F976060002281D /* ContentView.swift in Sources */,
+				9106EEC926F9773A0002281D /* MainView.swift in Sources */,
 				9106EEBA26F976060002281D /* iTinder_BuildApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
