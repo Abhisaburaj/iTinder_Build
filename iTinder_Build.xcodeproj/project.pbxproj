@@ -62,13 +62,12 @@
 			children = (
 				9106EEB926F976060002281D /* iTinder_BuildApp.swift */,
 				9106EEBB26F976060002281D /* ContentView.swift */,
-				9106EEC826F9773A0002281D /* MainView.swift */,
 				9106EECC26F97D800002281D /* AppStateManager.swift */,
-				9106EECA26F979380002281D /* TabBarButtonView.swift */,
-				9106EECE26F980700002281D /* Extensions.swift */,
+				9106EED026F986320002281D /* MainTabBar */,
 				9106EEBD26F976070002281D /* Assets.xcassets */,
 				9106EEC226F976070002281D /* Info.plist */,
 				9106EEBF26F976070002281D /* Preview Content */,
+				9106EECE26F980700002281D /* Extensions.swift */,
 			);
 			path = iTinder_Build;
 			sourceTree = "<group>";
@@ -79,6 +78,15 @@
 				9106EEC026F976070002281D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9106EED026F986320002281D /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				9106EEC826F9773A0002281D /* MainView.swift */,
+				9106EECA26F979380002281D /* TabBarButtonView.swift */,
+			);
+			path = MainTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
