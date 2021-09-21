@@ -27,8 +27,6 @@ struct ChatView: View {
                 
                 ScrollView(.vertical, showsIndicators: false, content: {
                     ScrollViewReader { proxy in
-                        
-                        
                         LazyVStack {
                             ForEach(chatManager.messages.indices, id: \.self) { index in
                                 let message = chatManager.messages[index]
