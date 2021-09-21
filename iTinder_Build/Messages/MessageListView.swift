@@ -54,15 +54,22 @@ struct MessageListView: View {
                 
                 Spacer().frame(height: 14)
                 
-                VStack {
-                    ForEach(messageListVM.messagePreviews, id: \.self) { preview in
-                        // Label is clickable, goes to destination
-                        NavigationLink(
-                            destination: ChatView(person: preview.person),
-                            label: {
-                                MessageRowView(preview: preview)
-                            })
-                            .buttonStyle(PlainButtonStyle())
+                ZStack {
+                    VStack {
+                        ForEach(messageListVM.messagePreviews.filter({ searchText.isEmpty ? true : displayPreview($0) }), id: \.self) { preview in
+                            // Label is clickable, goes to destination
+                            NavigationLink(
+                                destination: ChatView(person: preview.person),
+                                label: {
+                                    MessageRowView(preview: preview)
+                                })
+                                .buttonStyle(PlainButtonStyle())
+                                .animation(.easeIn(duration: 0.25))
+                                .transition(.slide)
+                        }
+                    }
+                    if isEditing && searchText.isEmpty {
+                        Color.white.opacity(0.5)
                     }
                 }
                 
@@ -70,6 +77,19 @@ struct MessageListView: View {
             }
         }
         .modifier(HideNavigationView())
+    }
+    
+    func displayPreview(_ preview: MessagePreview) -> Bool {
+        // Person name
+        if preview.person.name.contains(searchText) { return true }
+
+        // Last message sent
+        if preview.lastMessage.contains(searchText) { return true }
+        
+        // Person bio
+        if preview.person.biography.contains(searchText) { return true }
+        
+        return false
     }
 }
 
