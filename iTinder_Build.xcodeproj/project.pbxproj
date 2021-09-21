@@ -23,6 +23,9 @@
 		918710AD26FA429F0021AC34 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918710AC26FA429F0021AC34 /* Person.swift */; };
 		918710AF26FA43100021AC34 /* MessagePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918710AE26FA43100021AC34 /* MessagePreview.swift */; };
 		918710B126FA43BB0021AC34 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918710B026FA43BB0021AC34 /* MessageView.swift */; };
+		918710B426FA47B00021AC34 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918710B326FA47B00021AC34 /* ChatView.swift */; };
+		918710B626FA48050021AC34 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918710B526FA48050021AC34 /* ChatManager.swift */; };
+		918710B826FA49CF0021AC34 /* ChatViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918710B726FA49CF0021AC34 /* ChatViewHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		918710AC26FA429F0021AC34 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		918710AE26FA43100021AC34 /* MessagePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePreview.swift; sourceTree = "<group>"; };
 		918710B026FA43BB0021AC34 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		918710B326FA47B00021AC34 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		918710B526FA48050021AC34 /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
+		918710B726FA49CF0021AC34 /* ChatViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,9 @@
 			isa = PBXGroup;
 			children = (
 				918710B026FA43BB0021AC34 /* MessageView.swift */,
+				918710B326FA47B00021AC34 /* ChatView.swift */,
+				918710B526FA48050021AC34 /* ChatManager.swift */,
+				918710B726FA49CF0021AC34 /* ChatViewHeader.swift */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
@@ -219,10 +228,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				918710B626FA48050021AC34 /* ChatManager.swift in Sources */,
 				9106EECB26F979380002281D /* TabBarButtonView.swift in Sources */,
 				9106EED526F9900D0002281D /* RoundedImage.swift in Sources */,
+				918710B826FA49CF0021AC34 /* ChatViewHeader.swift in Sources */,
 				9106EECF26F980700002281D /* Extensions.swift in Sources */,
 				9106EEBC26F976060002281D /* ContentView.swift in Sources */,
+				918710B426FA47B00021AC34 /* ChatView.swift in Sources */,
 				918710AD26FA429F0021AC34 /* Person.swift in Sources */,
 				918710B126FA43BB0021AC34 /* MessageView.swift in Sources */,
 				9106EEDB26F999F30002281D /* ProfileSwipePromo.swift in Sources */,
