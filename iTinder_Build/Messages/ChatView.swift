@@ -11,6 +11,7 @@ struct ChatView: View {
     @ObservedObject var chatManager: ChatManager
     
     @State private var typedMessage: String = ""
+    @State private var scrollProxy: ScrollViewProxy? = nil
     
     private var person: Person
     
@@ -25,14 +26,21 @@ struct ChatView: View {
                 Spacer().frame(height: 60)
                 
                 ScrollView(.vertical, showsIndicators: false, content: {
-                    
-                    LazyVStack {
-                        ForEach(chatManager.messages.indices, id: \.self) { index in
-                            let message = chatManager.messages[index]
-                            MessageView(message: message)
-                                .animation(.easeIn)
-                                .transition(.move(edge: .trailing))
+                    ScrollViewReader { proxy in
+                        
+                        
+                        LazyVStack {
+                            ForEach(chatManager.messages.indices, id: \.self) { index in
+                                let message = chatManager.messages[index]
+                                MessageView(message: message)
+                                    .id(index)
+                                    .animation(.easeIn)
+                                    .transition(.move(edge: .trailing))
+                            }
                         }
+                        .onAppear(perform: {
+                            scrollProxy = proxy
+                        })
                     }
                 })
                 
@@ -72,11 +80,25 @@ struct ChatView: View {
         }
         .navigationTitle("")
         .navigationBarHidden(true)
+        .onChange(of: chatManager.keyboardIsShowing) { value in
+            if value {
+                scrollToBottom()
+            }
+        }
+        .onChange(of: chatManager.messages) { _ in
+            scrollToBottom()
+        }
     }
     
     func sendMessage() {
         chatManager.sendMessage(Message(content: typedMessage))
         typedMessage = ""
+    }
+    
+    func scrollToBottom() {
+        withAnimation {
+            scrollProxy?.scrollTo(chatManager.messages.count - 1, anchor: .bottom)
+        }
     }
 }
 
