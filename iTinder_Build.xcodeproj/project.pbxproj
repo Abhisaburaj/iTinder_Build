@@ -34,6 +34,10 @@
 		918710B626FA48050021AC34 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918710B526FA48050021AC34 /* ChatManager.swift */; };
 		918710B826FA49CF0021AC34 /* ChatViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918710B726FA49CF0021AC34 /* ChatViewHeader.swift */; };
 		91AD7B6E26FBCB2200C1F8D8 /* PurchaseGoldPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AD7B6D26FBCB2200C1F8D8 /* PurchaseGoldPopup.swift */; };
+		91AD7B7126FBDED300C1F8D8 /* PurchaseSwipePromo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AD7B7026FBDED300C1F8D8 /* PurchaseSwipePromo.swift */; };
+		91AD7B7426FBE08400C1F8D8 /* PurchaseOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AD7B7326FBE08400C1F8D8 /* PurchaseOptionView.swift */; };
+		91AD7B7626FBE0C500C1F8D8 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AD7B7526FBE0C500C1F8D8 /* Subscription.swift */; };
+		91AD7B7826FBE76D00C1F8D8 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AD7B7726FBE76D00C1F8D8 /* RoundedCorner.swift */; };
 		91B067A826FADFFB00D3EF22 /* TopPicksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B067A726FADFFB00D3EF22 /* TopPicksView.swift */; };
 		91B067AA26FAE0CE00D3EF22 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B067A926FAE0CE00D3EF22 /* MatchesView.swift */; };
 /* End PBXBuildFile section */
@@ -67,6 +71,10 @@
 		918710B526FA48050021AC34 /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
 		918710B726FA49CF0021AC34 /* ChatViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewHeader.swift; sourceTree = "<group>"; };
 		91AD7B6D26FBCB2200C1F8D8 /* PurchaseGoldPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseGoldPopup.swift; sourceTree = "<group>"; };
+		91AD7B7026FBDED300C1F8D8 /* PurchaseSwipePromo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSwipePromo.swift; sourceTree = "<group>"; };
+		91AD7B7326FBE08400C1F8D8 /* PurchaseOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseOptionView.swift; sourceTree = "<group>"; };
+		91AD7B7526FBE0C500C1F8D8 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		91AD7B7726FBE76D00C1F8D8 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 		91B067A726FADFFB00D3EF22 /* TopPicksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPicksView.swift; sourceTree = "<group>"; };
 		91B067A926FAE0CE00D3EF22 /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,7 +124,7 @@
 				9106EEBD26F976070002281D /* Assets.xcassets */,
 				9106EEC226F976070002281D /* Info.plist */,
 				9106EEBF26F976070002281D /* Preview Content */,
-				9106EECE26F980700002281D /* Extensions.swift */,
+				91AD7B7926FBEB6F00C1F8D8 /* Extensions */,
 			);
 			path = iTinder_Build;
 			sourceTree = "<group>";
@@ -173,6 +181,7 @@
 				918710AC26FA429F0021AC34 /* Person.swift */,
 				918710AE26FA43100021AC34 /* MessagePreview.swift */,
 				914B24AE26FAA4D30035010B /* User.swift */,
+				91AD7B7526FBE0C500C1F8D8 /* Subscription.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -194,9 +203,28 @@
 		91AD7B6F26FBCB2D00C1F8D8 /* Popups */ = {
 			isa = PBXGroup;
 			children = (
-				91AD7B6D26FBCB2200C1F8D8 /* PurchaseGoldPopup.swift */,
+				91AD7B7226FBDEE800C1F8D8 /* Purchase */,
 			);
 			path = Popups;
+			sourceTree = "<group>";
+		};
+		91AD7B7226FBDEE800C1F8D8 /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				91AD7B6D26FBCB2200C1F8D8 /* PurchaseGoldPopup.swift */,
+				91AD7B7026FBDED300C1F8D8 /* PurchaseSwipePromo.swift */,
+				91AD7B7326FBE08400C1F8D8 /* PurchaseOptionView.swift */,
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
+		91AD7B7926FBEB6F00C1F8D8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9106EECE26F980700002281D /* Extensions.swift */,
+				91AD7B7726FBE76D00C1F8D8 /* RoundedCorner.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,13 +314,17 @@
 				9106EECF26F980700002281D /* Extensions.swift in Sources */,
 				914B24A926FA89F90035010B /* MessageListVM.swift in Sources */,
 				9106EEBC26F976060002281D /* ContentView.swift in Sources */,
+				91AD7B7826FBE76D00C1F8D8 /* RoundedCorner.swift in Sources */,
+				91AD7B7626FBE0C500C1F8D8 /* Subscription.swift in Sources */,
 				918710B426FA47B00021AC34 /* ChatView.swift in Sources */,
 				918710AD26FA429F0021AC34 /* Person.swift in Sources */,
 				918710B126FA43BB0021AC34 /* MessageView.swift in Sources */,
 				9106EEDB26F999F30002281D /* ProfileSwipePromo.swift in Sources */,
 				9106EEC926F9773A0002281D /* MainView.swift in Sources */,
 				9106EEBA26F976060002281D /* iTinder_BuildApp.swift in Sources */,
+				91AD7B7426FBE08400C1F8D8 /* PurchaseOptionView.swift in Sources */,
 				918710A826FA41F10021AC34 /* Message.swift in Sources */,
+				91AD7B7126FBDED300C1F8D8 /* PurchaseSwipePromo.swift in Sources */,
 				9106EED226F98ECA0002281D /* ProfileView.swift in Sources */,
 				914B24B126FAA6FB0035010B /* LikesView.swift in Sources */,
 				9106EECD26F97D800002281D /* AppStateManager.swift in Sources */,
