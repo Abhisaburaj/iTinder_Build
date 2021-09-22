@@ -33,6 +33,8 @@
 		918710B426FA47B00021AC34 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918710B326FA47B00021AC34 /* ChatView.swift */; };
 		918710B626FA48050021AC34 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918710B526FA48050021AC34 /* ChatManager.swift */; };
 		918710B826FA49CF0021AC34 /* ChatViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918710B726FA49CF0021AC34 /* ChatViewHeader.swift */; };
+		91B067A826FADFFB00D3EF22 /* TopPicksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B067A726FADFFB00D3EF22 /* TopPicksView.swift */; };
+		91B067AA26FAE0CE00D3EF22 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B067A926FAE0CE00D3EF22 /* MatchesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		918710B326FA47B00021AC34 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		918710B526FA48050021AC34 /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
 		918710B726FA49CF0021AC34 /* ChatViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewHeader.swift; sourceTree = "<group>"; };
+		91B067A726FADFFB00D3EF22 /* TopPicksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPicksView.swift; sourceTree = "<group>"; };
+		91B067A926FAE0CE00D3EF22 /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,8 @@
 			children = (
 				914B24B026FAA6FB0035010B /* LikesView.swift */,
 				914FDBEB26FAC8B000D343B2 /* PersonSquare.swift */,
+				91B067A726FADFFB00D3EF22 /* TopPicksView.swift */,
+				91B067A926FAE0CE00D3EF22 /* MatchesView.swift */,
 			);
 			path = MatchesView;
 			sourceTree = "<group>";
@@ -263,6 +269,7 @@
 				914FDBEC26FAC8B000D343B2 /* PersonSquare.swift in Sources */,
 				9106EED526F9900D0002281D /* RoundedImage.swift in Sources */,
 				918710B826FA49CF0021AC34 /* ChatViewHeader.swift in Sources */,
+				91B067AA26FAE0CE00D3EF22 /* MatchesView.swift in Sources */,
 				914B24AB26FA91A40035010B /* MessageRowView.swift in Sources */,
 				9106EECF26F980700002281D /* Extensions.swift in Sources */,
 				914B24A926FA89F90035010B /* MessageListVM.swift in Sources */,
@@ -278,6 +285,7 @@
 				914B24B126FAA6FB0035010B /* LikesView.swift in Sources */,
 				9106EECD26F97D800002281D /* AppStateManager.swift in Sources */,
 				914B24AD26FAA47F0035010B /* UserManager.swift in Sources */,
+				91B067A826FADFFB00D3EF22 /* TopPicksView.swift in Sources */,
 				918710AF26FA43100021AC34 /* MessagePreview.swift in Sources */,
 				914B24AF26FAA4D30035010B /* User.swift in Sources */,
 			);
