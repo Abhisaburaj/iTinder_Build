@@ -25,6 +25,7 @@
 		914B24AD26FAA47F0035010B /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B24AC26FAA47F0035010B /* UserManager.swift */; };
 		914B24AF26FAA4D30035010B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B24AE26FAA4D30035010B /* User.swift */; };
 		914B24B126FAA6FB0035010B /* LikesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B24B026FAA6FB0035010B /* LikesView.swift */; };
+		914FDBEC26FAC8B000D343B2 /* PersonSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914FDBEB26FAC8B000D343B2 /* PersonSquare.swift */; };
 		918710A826FA41F10021AC34 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918710A726FA41F10021AC34 /* Message.swift */; };
 		918710AD26FA429F0021AC34 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918710AC26FA429F0021AC34 /* Person.swift */; };
 		918710AF26FA43100021AC34 /* MessagePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918710AE26FA43100021AC34 /* MessagePreview.swift */; };
@@ -54,6 +55,7 @@
 		914B24AC26FAA47F0035010B /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		914B24AE26FAA4D30035010B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		914B24B026FAA6FB0035010B /* LikesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesView.swift; sourceTree = "<group>"; };
+		914FDBEB26FAC8B000D343B2 /* PersonSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSquare.swift; sourceTree = "<group>"; };
 		918710A726FA41F10021AC34 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		918710AC26FA429F0021AC34 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		918710AE26FA43100021AC34 /* MessagePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePreview.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				914B24B026FAA6FB0035010B /* LikesView.swift */,
+				914FDBEB26FAC8B000D343B2 /* PersonSquare.swift */,
 			);
 			path = MatchesView;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				918710B626FA48050021AC34 /* ChatManager.swift in Sources */,
 				914B24A726FA89B80035010B /* MessageListView.swift in Sources */,
 				9106EECB26F979380002281D /* TabBarButtonView.swift in Sources */,
+				914FDBEC26FAC8B000D343B2 /* PersonSquare.swift in Sources */,
 				9106EED526F9900D0002281D /* RoundedImage.swift in Sources */,
 				918710B826FA49CF0021AC34 /* ChatViewHeader.swift in Sources */,
 				914B24AB26FA91A40035010B /* MessageRowView.swift in Sources */,
