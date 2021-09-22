@@ -9,15 +9,15 @@ import SwiftUI
 
 struct MainView: View {
     
-    @EnvironmentObject var appState: AppStateManager
+    @EnvironmentObject var appStateManager: AppStateManager
     
     func viewForAppState() -> some View {
-        switch appState.selectedTab {
+        switch appStateManager.selectedTab {
         case .fire:
             let view = Text("Fire")
             return AnyView(view)
         case .star:
-            let view = Text("Star")
+            let view = MatchesView()
             return AnyView(view)
         case .message:
             let view = MessageListView()
@@ -71,7 +71,9 @@ struct MainView: View {
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView().environmentObject(AppStateManager())
+        MainView()
+            .environmentObject(UserManager())
+            .environmentObject(AppStateManager())
     }
 }
 

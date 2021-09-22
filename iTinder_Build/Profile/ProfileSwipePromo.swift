@@ -52,7 +52,7 @@ struct ProfileSwipePromo: View {
                     .cornerRadius(30)
                     .shadow(color: Color.gray.opacity(0.2), radius: 10)
             })
-            .padding(.bottom, 30)
+            .padding(.bottom, 40)
         }
     }
 }
