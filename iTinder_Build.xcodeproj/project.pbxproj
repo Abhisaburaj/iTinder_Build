@@ -22,6 +22,9 @@
 		914B24A726FA89B80035010B /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B24A626FA89B80035010B /* MessageListView.swift */; };
 		914B24A926FA89F90035010B /* MessageListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B24A826FA89F90035010B /* MessageListVM.swift */; };
 		914B24AB26FA91A40035010B /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B24AA26FA91A40035010B /* MessageRowView.swift */; };
+		914B24AD26FAA47F0035010B /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B24AC26FAA47F0035010B /* UserManager.swift */; };
+		914B24AF26FAA4D30035010B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B24AE26FAA4D30035010B /* User.swift */; };
+		914B24B126FAA6FB0035010B /* LikesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B24B026FAA6FB0035010B /* LikesView.swift */; };
 		918710A826FA41F10021AC34 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918710A726FA41F10021AC34 /* Message.swift */; };
 		918710AD26FA429F0021AC34 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918710AC26FA429F0021AC34 /* Person.swift */; };
 		918710AF26FA43100021AC34 /* MessagePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918710AE26FA43100021AC34 /* MessagePreview.swift */; };
@@ -48,6 +51,9 @@
 		914B24A626FA89B80035010B /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
 		914B24A826FA89F90035010B /* MessageListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListVM.swift; sourceTree = "<group>"; };
 		914B24AA26FA91A40035010B /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
+		914B24AC26FAA47F0035010B /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		914B24AE26FAA4D30035010B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		914B24B026FAA6FB0035010B /* LikesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesView.swift; sourceTree = "<group>"; };
 		918710A726FA41F10021AC34 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		918710AC26FA429F0021AC34 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		918710AE26FA43100021AC34 /* MessagePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePreview.swift; sourceTree = "<group>"; };
@@ -91,9 +97,11 @@
 				9106EEB926F976060002281D /* iTinder_BuildApp.swift */,
 				9106EEBB26F976060002281D /* ContentView.swift */,
 				9106EECC26F97D800002281D /* AppStateManager.swift */,
+				914B24AC26FAA47F0035010B /* UserManager.swift */,
 				9106EED026F986320002281D /* MainTabBar */,
 				9106EED326F98EE20002281D /* Profile */,
 				918710B226FA43C00021AC34 /* Messages */,
+				914B24B226FAA7220035010B /* MatchesView */,
 				918710A926FA41F60021AC34 /* Model */,
 				9106EED926F9914C0002281D /* HelperViews */,
 				9106EEBD26F976070002281D /* Assets.xcassets */,
@@ -138,12 +146,21 @@
 			path = HelperViews;
 			sourceTree = "<group>";
 		};
+		914B24B226FAA7220035010B /* MatchesView */ = {
+			isa = PBXGroup;
+			children = (
+				914B24B026FAA6FB0035010B /* LikesView.swift */,
+			);
+			path = MatchesView;
+			sourceTree = "<group>";
+		};
 		918710A926FA41F60021AC34 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				918710A726FA41F10021AC34 /* Message.swift */,
 				918710AC26FA429F0021AC34 /* Person.swift */,
 				918710AE26FA43100021AC34 /* MessagePreview.swift */,
+				914B24AE26FAA4D30035010B /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -254,8 +271,11 @@
 				9106EEBA26F976060002281D /* iTinder_BuildApp.swift in Sources */,
 				918710A826FA41F10021AC34 /* Message.swift in Sources */,
 				9106EED226F98ECA0002281D /* ProfileView.swift in Sources */,
+				914B24B126FAA6FB0035010B /* LikesView.swift in Sources */,
 				9106EECD26F97D800002281D /* AppStateManager.swift in Sources */,
+				914B24AD26FAA47F0035010B /* UserManager.swift in Sources */,
 				918710AF26FA43100021AC34 /* MessagePreview.swift in Sources */,
+				914B24AF26FAA4D30035010B /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
