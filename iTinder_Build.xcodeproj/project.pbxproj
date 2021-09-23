@@ -43,6 +43,7 @@
 		91B067AA26FAE0CE00D3EF22 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B067A926FAE0CE00D3EF22 /* MatchesView.swift */; };
 		91C26F9D26FCD40F0024089D /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C26F9C26FCD40F0024089D /* CircleButtonView.swift */; };
 		91C26F9F26FD1FFA0024089D /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C26F9E26FD1FFA0024089D /* CardStack.swift */; };
+		91C26FA126FD23C40024089D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C26FA026FD23C40024089D /* HomeView.swift */; };
 		91E958F626FC2C3B0025139C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E958F526FC2C3B0025139C /* CardView.swift */; };
 		91E958F826FC33510025139C /* FullScreenCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E958F726FC33510025139C /* FullScreenCardView.swift */; };
 /* End PBXBuildFile section */
@@ -85,6 +86,7 @@
 		91B067A926FAE0CE00D3EF22 /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
 		91C26F9C26FCD40F0024089D /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		91C26F9E26FD1FFA0024089D /* CardStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
+		91C26FA026FD23C40024089D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		91E958F526FC2C3B0025139C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		91E958F726FC33510025139C /* FullScreenCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -254,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				91AD7B7C26FBF30D00C1F8D8 /* CardViews */,
+				91C26FA026FD23C40024089D /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				914FDBEC26FAC8B000D343B2 /* PersonSquare.swift in Sources */,
 				9106EED526F9900D0002281D /* RoundedImage.swift in Sources */,
 				918710B826FA49CF0021AC34 /* ChatViewHeader.swift in Sources */,
+				91C26FA126FD23C40024089D /* HomeView.swift in Sources */,
 				91B067AA26FAE0CE00D3EF22 /* MatchesView.swift in Sources */,
 				914B24AB26FA91A40035010B /* MessageRowView.swift in Sources */,
 				9106EECF26F980700002281D /* Extensions.swift in Sources */,

@@ -54,7 +54,12 @@ extension Person {
         Person(
             name: "Sanghwa",
             age: 32,
-            imageURLS: [URL(string: "https://picsum.photos/400/302")!],
+            imageURLS: [
+                URL(string: "https://picsum.photos/400/302")!,
+                URL(string: "https://picsum.photos/400/303")!,
+                URL(string: "https://picsum.photos/400/304")!,
+                URL(string: "https://picsum.photos/400/305")!
+            ],
             biography: "Goobne chicken is the best.",
             longBiography: "Goobne chicken is the best.",
             distance: 30
@@ -62,7 +67,12 @@ extension Person {
         Person(
             name: "Danny",
             age: 28,
-            imageURLS: [URL(string: "https://picsum.photos/400/303")!],
+            imageURLS: [
+                URL(string: "https://picsum.photos/400/306")!,
+                URL(string: "https://picsum.photos/400/307")!,
+                URL(string: "https://picsum.photos/400/308")!,
+                URL(string: "https://picsum.photos/400/309")!
+            ],
             biography: "You fall down something.",
             longBiography: "You fall down something.",
             distance: 35
@@ -70,7 +80,12 @@ extension Person {
         Person(
             name: "Perry",
             age: 33,
-            imageURLS: [URL(string: "https://picsum.photos/400/304")!],
+            imageURLS: [
+                URL(string: "https://picsum.photos/400/310")!,
+                URL(string: "https://picsum.photos/400/311")!,
+                URL(string: "https://picsum.photos/400/312")!,
+                URL(string: "https://picsum.photos/400/313")!
+            ],
             biography: "n00bs are the reason I ragequit.",
             longBiography: "n00bs are the reason I ragequit.",
             distance: 40

@@ -28,6 +28,8 @@ struct CardImageScroller: View {
         imageIndex = min(max(0, newIndex), person.imageURLS.count - 1)
     }
     
+    let screenCutoff = (UIScreen.main.bounds.width / 2) * 0.4
+    
     var body: some View {
         GeometryReader { geo in
             ZStack {
@@ -40,6 +42,26 @@ struct CardImageScroller: View {
                         .aspectRatio(contentMode: .fill)
                         .frame(width: geo.size.width, height: geo.size.height)
                         .clipped()
+                    
+                    VStack {
+                        HStack {
+                            Image("like")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 150)
+                                .opacity(Double(person.xPosition / screenCutoff) - 1)
+                            
+                            Spacer()
+                            
+                            Image("reject")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 150)
+                                .opacity(Double(person.xPosition / screenCutoff * -1 - 1))
+                        }
+                        
+                        Spacer()
+                    }
                     
                     HStack {
                         Rectangle()
