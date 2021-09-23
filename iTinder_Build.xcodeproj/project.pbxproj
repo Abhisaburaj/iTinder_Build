@@ -41,6 +41,7 @@
 		91AD7B7B26FBF30100C1F8D8 /* CardImageScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AD7B7A26FBF30100C1F8D8 /* CardImageScroller.swift */; };
 		91B067A826FADFFB00D3EF22 /* TopPicksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B067A726FADFFB00D3EF22 /* TopPicksView.swift */; };
 		91B067AA26FAE0CE00D3EF22 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B067A926FAE0CE00D3EF22 /* MatchesView.swift */; };
+		91E958F626FC2C3B0025139C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E958F526FC2C3B0025139C /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		91AD7B7A26FBF30100C1F8D8 /* CardImageScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageScroller.swift; sourceTree = "<group>"; };
 		91B067A726FADFFB00D3EF22 /* TopPicksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPicksView.swift; sourceTree = "<group>"; };
 		91B067A926FAE0CE00D3EF22 /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
+		91E958F526FC2C3B0025139C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				9106EECC26F97D800002281D /* AppStateManager.swift */,
 				914B24AC26FAA47F0035010B /* UserManager.swift */,
 				9106EED026F986320002281D /* MainTabBar */,
+				91AD7B7D26FBF31D00C1F8D8 /* Home */,
 				9106EED326F98EE20002281D /* Profile */,
 				918710B226FA43C00021AC34 /* Messages */,
 				914B24B226FAA7220035010B /* MatchesView */,
@@ -127,7 +130,6 @@
 				9106EEC226F976070002281D /* Info.plist */,
 				9106EEBF26F976070002281D /* Preview Content */,
 				91AD7B7926FBEB6F00C1F8D8 /* Extensions */,
-				91AD7B7D26FBF31D00C1F8D8 /* Home */,
 			);
 			path = iTinder_Build;
 			sourceTree = "<group>";
@@ -234,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				91AD7B7A26FBF30100C1F8D8 /* CardImageScroller.swift */,
+				91E958F526FC2C3B0025139C /* CardView.swift */,
 			);
 			path = CardViews;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				914B24AD26FAA47F0035010B /* UserManager.swift in Sources */,
 				91B067A826FADFFB00D3EF22 /* TopPicksView.swift in Sources */,
 				918710AF26FA43100021AC34 /* MessagePreview.swift in Sources */,
+				91E958F626FC2C3B0025139C /* CardView.swift in Sources */,
 				914B24AF26FAA4D30035010B /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
