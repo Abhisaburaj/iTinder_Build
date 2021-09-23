@@ -38,6 +38,7 @@
 		91AD7B7426FBE08400C1F8D8 /* PurchaseOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AD7B7326FBE08400C1F8D8 /* PurchaseOptionView.swift */; };
 		91AD7B7626FBE0C500C1F8D8 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AD7B7526FBE0C500C1F8D8 /* Subscription.swift */; };
 		91AD7B7826FBE76D00C1F8D8 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AD7B7726FBE76D00C1F8D8 /* RoundedCorner.swift */; };
+		91AD7B7B26FBF30100C1F8D8 /* CardImageScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AD7B7A26FBF30100C1F8D8 /* CardImageScroller.swift */; };
 		91B067A826FADFFB00D3EF22 /* TopPicksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B067A726FADFFB00D3EF22 /* TopPicksView.swift */; };
 		91B067AA26FAE0CE00D3EF22 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B067A926FAE0CE00D3EF22 /* MatchesView.swift */; };
 /* End PBXBuildFile section */
@@ -75,6 +76,7 @@
 		91AD7B7326FBE08400C1F8D8 /* PurchaseOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseOptionView.swift; sourceTree = "<group>"; };
 		91AD7B7526FBE0C500C1F8D8 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
 		91AD7B7726FBE76D00C1F8D8 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		91AD7B7A26FBF30100C1F8D8 /* CardImageScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageScroller.swift; sourceTree = "<group>"; };
 		91B067A726FADFFB00D3EF22 /* TopPicksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPicksView.swift; sourceTree = "<group>"; };
 		91B067A926FAE0CE00D3EF22 /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +127,7 @@
 				9106EEC226F976070002281D /* Info.plist */,
 				9106EEBF26F976070002281D /* Preview Content */,
 				91AD7B7926FBEB6F00C1F8D8 /* Extensions */,
+				91AD7B7D26FBF31D00C1F8D8 /* Home */,
 			);
 			path = iTinder_Build;
 			sourceTree = "<group>";
@@ -227,6 +230,22 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		91AD7B7C26FBF30D00C1F8D8 /* CardViews */ = {
+			isa = PBXGroup;
+			children = (
+				91AD7B7A26FBF30100C1F8D8 /* CardImageScroller.swift */,
+			);
+			path = CardViews;
+			sourceTree = "<group>";
+		};
+		91AD7B7D26FBF31D00C1F8D8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				91AD7B7C26FBF30D00C1F8D8 /* CardViews */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -322,6 +341,7 @@
 				9106EEDB26F999F30002281D /* ProfileSwipePromo.swift in Sources */,
 				9106EEC926F9773A0002281D /* MainView.swift in Sources */,
 				9106EEBA26F976060002281D /* iTinder_BuildApp.swift in Sources */,
+				91AD7B7B26FBF30100C1F8D8 /* CardImageScroller.swift in Sources */,
 				91AD7B7426FBE08400C1F8D8 /* PurchaseOptionView.swift in Sources */,
 				918710A826FA41F10021AC34 /* Message.swift in Sources */,
 				91AD7B7126FBDED300C1F8D8 /* PurchaseSwipePromo.swift in Sources */,
