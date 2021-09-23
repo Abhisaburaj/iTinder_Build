@@ -16,7 +16,10 @@ struct CardView: View {
     var body: some View {
         GeometryReader { geo in
             if inFullScreenMode {
-                Text("FULL SCREEN")
+                FullScreenCardView(
+                    person: person,
+                    inFullScreenMode: $inFullScreenMode
+                )
             } else {
                 CardImageScroller(person: person, inFullScreenMode: $inFullScreenMode)
                     .animation(.easeOut(duration: 0.2))

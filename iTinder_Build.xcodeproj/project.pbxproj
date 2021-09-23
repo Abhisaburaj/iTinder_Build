@@ -41,6 +41,7 @@
 		91AD7B7B26FBF30100C1F8D8 /* CardImageScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AD7B7A26FBF30100C1F8D8 /* CardImageScroller.swift */; };
 		91B067A826FADFFB00D3EF22 /* TopPicksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B067A726FADFFB00D3EF22 /* TopPicksView.swift */; };
 		91B067AA26FAE0CE00D3EF22 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B067A926FAE0CE00D3EF22 /* MatchesView.swift */; };
+		91C26F9D26FCD40F0024089D /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C26F9C26FCD40F0024089D /* CircleButtonView.swift */; };
 		91E958F626FC2C3B0025139C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E958F526FC2C3B0025139C /* CardView.swift */; };
 		91E958F826FC33510025139C /* FullScreenCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E958F726FC33510025139C /* FullScreenCardView.swift */; };
 /* End PBXBuildFile section */
@@ -81,6 +82,7 @@
 		91AD7B7A26FBF30100C1F8D8 /* CardImageScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageScroller.swift; sourceTree = "<group>"; };
 		91B067A726FADFFB00D3EF22 /* TopPicksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPicksView.swift; sourceTree = "<group>"; };
 		91B067A926FAE0CE00D3EF22 /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
+		91C26F9C26FCD40F0024089D /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		91E958F526FC2C3B0025139C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		91E958F726FC33510025139C /* FullScreenCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -166,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				9106EED426F9900D0002281D /* RoundedImage.swift */,
+				91C26F9C26FCD40F0024089D /* CircleButtonView.swift */,
 			);
 			path = HelperViews;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				918710B626FA48050021AC34 /* ChatManager.swift in Sources */,
 				914B24A726FA89B80035010B /* MessageListView.swift in Sources */,
 				9106EECB26F979380002281D /* TabBarButtonView.swift in Sources */,
+				91C26F9D26FCD40F0024089D /* CircleButtonView.swift in Sources */,
 				91AD7B6E26FBCB2200C1F8D8 /* PurchaseGoldPopup.swift in Sources */,
 				914FDBEC26FAC8B000D343B2 /* PersonSquare.swift in Sources */,
 				9106EED526F9900D0002281D /* RoundedImage.swift in Sources */,
