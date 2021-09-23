@@ -42,6 +42,7 @@
 		91B067A826FADFFB00D3EF22 /* TopPicksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B067A726FADFFB00D3EF22 /* TopPicksView.swift */; };
 		91B067AA26FAE0CE00D3EF22 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B067A926FAE0CE00D3EF22 /* MatchesView.swift */; };
 		91E958F626FC2C3B0025139C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E958F526FC2C3B0025139C /* CardView.swift */; };
+		91E958F826FC33510025139C /* FullScreenCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E958F726FC33510025139C /* FullScreenCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		91B067A726FADFFB00D3EF22 /* TopPicksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPicksView.swift; sourceTree = "<group>"; };
 		91B067A926FAE0CE00D3EF22 /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
 		91E958F526FC2C3B0025139C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		91E958F726FC33510025139C /* FullScreenCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +239,7 @@
 			children = (
 				91AD7B7A26FBF30100C1F8D8 /* CardImageScroller.swift */,
 				91E958F526FC2C3B0025139C /* CardView.swift */,
+				91E958F726FC33510025139C /* FullScreenCardView.swift */,
 			);
 			path = CardViews;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E958F826FC33510025139C /* FullScreenCardView.swift in Sources */,
 				918710B626FA48050021AC34 /* ChatManager.swift in Sources */,
 				914B24A726FA89B80035010B /* MessageListView.swift in Sources */,
 				9106EECB26F979380002281D /* TabBarButtonView.swift in Sources */,
