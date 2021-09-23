@@ -24,7 +24,7 @@ extension Person {
             URL(string: "https://picsum.photos/400/302")!,
             URL(string: "https://picsum.photos/400/303")!
         ],
-        biography: "This is my bio",
+        biography: "This is my bio. I just want to say that I am a very boring person and that if you liked me, you made a huge mistake.",
         age: 31
     )
     
